@@ -29,9 +29,5 @@ import "./styles.global.scss";
 // ----------------------------------------------------------------------------
 
 // Global styles to apply
-export default css`
-  /* Make all <h1> tags orange  */
-  h1 {
-    background-color: orange;
-  }
-`;
+// export default css`
+// `;

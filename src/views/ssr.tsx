@@ -39,6 +39,20 @@ export default class Html extends React.PureComponent<IHtmlProps> {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta httpEquiv="Content-Language" content="en" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta content="" name="description" />
+          <meta content="" name="keywords" />
+
+          {/* Favicons */}
+          {/* Todo handle assets path via webpack */}
+          <link href="assets/img/favicon.png" rel="icon" />
+          <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+          {/* Todo handle this with newer version via ionic component */}
+          <link
+            href="assets/vendor/ionicons/css/ionicons.min.css"
+            rel="stylesheet"
+          />
+
           {helmet.meta.toComponent()}
           {helmet.style.toComponent()}
           {helmet.link.toComponent()}

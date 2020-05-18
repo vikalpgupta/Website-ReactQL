@@ -38,7 +38,7 @@
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.3.3",
-    "@graphql-codegen/cli": "^1.1.3",
+    "@graphql-codegen/cli": "^1.13.5",
     "@graphql-codegen/fragment-matcher": "^1.1.3",
     "@graphql-codegen/typescript": "^1.1.3",
     "@graphql-codegen/typescript-operations": "^1.1.3",
@@ -68,6 +68,7 @@
     "@types/webpack-dev-server": "^3.1.5",
     "@types/webpack-node-externals": "^1.6.3",
     "@types/ws": "^6.0.1",
+    "animate-sass": "^0.8.2",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.6",
     "babel-plugin-emotion": "^10.0.9",
@@ -84,7 +85,7 @@
     "less-loader": "^5.0.0",
     "lint-staged": "^8.1.6",
     "mini-css-extract-plugin": "^0.6.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.14.1",
     "postcss-loader": "^3.0.0",
     "postcss-preset-env": "^6.6.0",
     "prettier": "^1.17.0",
@@ -101,6 +102,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.11",
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "apollo-cache-inmemory": "^1.5.1",
     "apollo-client": "^2.5.1",
     "apollo-link": "^1.2.11",
@@ -109,6 +111,7 @@
     "apollo-link-state": "^0.4.2",
     "apollo-link-ws": "^1.0.17",
     "apollo-utilities": "^1.2.1",
+    "bootstrap": "^4.4.1",
     "bufferutil": "^4.0.1",
     "chalk": "^2.4.2",
     "cross-env": "^5.2.0",
@@ -122,7 +125,7 @@
     "koa": "^2.7.0",
     "koa-router": "^7.4.0",
     "koa-send": "^5.0.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.15",
     "microseconds": "^0.1.0",
     "mobx": "^5.9.4",
     "mobx-react-lite": "^1.3.2",
@@ -134,8 +137,10 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "react-hot-loader": "^4.8.4",
+    "react-owl-carousel": "^2.3.1",
     "react-router-dom": "^5.0.0",
     "subscriptions-transport-ws": "^0.9.16",
-    "utf-8-validate": "^5.0.2"
+    "utf-8-validate": "^5.0.2",
+    "venobox": "^1.8.9"
   }
 }

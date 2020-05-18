@@ -1,15 +1,14 @@
 /* Regular @import url statements work as you'd expect them to -- alternatively
 you can import locally, and they wind up in the resulting bundle */
-@import url("https://fonts.googleapis.com/css?family=Gentium+Basic");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700");
 
-html {
-  padding: 0;
-  border: 0;
-  font-family: "Gentium Basic", serif;
-  font-size: 16px;
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~animate-sass/animate";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import "~venobox/venobox/venobox.css";
 
-  /* We can nest rules, thanks to SASS */
-  li {
-    font-size: 2rem;
-  }
+html, body {
+    font-family: "Open Sans", serif;
 }
+
+@import "css/styles";

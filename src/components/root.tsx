@@ -21,7 +21,8 @@ import globalStyles from "@/global/styles";
 // By default, pull in the ReactQL example. In your own project, just nix
 // the `src/components/example` folder and replace the following line with
 // your own React components
-import Example from "@/components/example";
+// import Example from "@/components/example";
+import Website from "@/components/website";
 
 // ----------------------------------------------------------------------------
 
@@ -33,7 +34,7 @@ const Root: React.FunctionComponent = () => (
     </Helmet>
     <ScrollTop>
       <Switch>
-        <Route path="/" exact component={Example} />
+        <Route path="/" exact component={Website} />
       </Switch>
     </ScrollTop>
   </div>
